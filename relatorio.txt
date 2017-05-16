@@ -1,0 +1,15 @@
+
+
+
+
+
+
+
+
+Implementação
+
+
+    - Função compress:
+        - Recebe uma imagem e um inteiro k, que é a taxa de compressão da imagem.
+
+        Para comprimir a imagem, a copiamos pulando k + 1 linha e colunas.
