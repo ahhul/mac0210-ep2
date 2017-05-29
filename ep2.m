@@ -120,8 +120,8 @@ e_max = max(vec(e(2:end-1,2:end-1))) % o erro na borda está maior que o normal,
 % normaliza s para a imagem
 s -= min(vec(s));
 s /= max(vec(s));
-%imwrite(s, 'imagem.png');
+imwrite(s, 'imagem.png');
 
 % plot 3D com o f - s
-mesh(2:nmax-1, 2:nmax-1, e(2:nmax-1,2:nmax-1));
+%mesh(2:nmax-1, 2:nmax-1, e(2:nmax-1,2:nmax-1));
 input('');
